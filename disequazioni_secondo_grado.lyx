@@ -1,0 +1,242 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf3
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Come risolvere Disequazioni di Secondo Grado
+\end_layout
+
+\begin_layout Enumerate
+Portare la disequazione in questa forma, attraverso le normali operazioni
+ sulle disequazioni: 
+\series bold
+\color red
+ax
+\begin_inset Formula $^{2}$
+\end_inset
+
++bx+c 
+\begin_inset Formula $\geq$
+\end_inset
+
+ 0
+\series default
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+(dove il simbolo 
+\begin_inset Formula $\geq$
+\end_inset
+
+ puo' anche essere sostituito da 
+\begin_inset Formula $\leq$
+\end_inset
+
+, <, > in base alla disequazione iniziale).
+\end_layout
+
+\begin_layout Enumerate
+Calcolare 
+\series bold
+\color red
+
+\begin_inset Formula $\Delta$
+\end_inset
+
+ = b
+\begin_inset Formula $^{2}$
+\end_inset
+
+- 4ac
+\series default
+\color inherit
+.
+ Ci possono essere tre sottocasi: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+\begin_inset Formula $\Delta$
+\end_inset
+
+ > 0:
+\series default
+ ci sono due soluzioni distinte x
+\begin_inset Formula $_{1}$
+\end_inset
+
+,x
+\begin_inset Formula $_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\begin_inset Formula $\Delta$
+\end_inset
+
+ = 0: 
+\series default
+le due soluzioni sono coincidenti, devi trovare solo una x
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+\begin_inset Formula $\Delta$
+\end_inset
+
+ < 0:
+\series default
+ non ci sono soluzioni reali
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Calcolare le soluzioni (
+\shape italic
+se ci sono
+\shape default
+) con la formula: 
+\series bold
+\color red
+
+\begin_inset Formula 
+\[
+\frac{-b\pm\sqrt{b^{2}-4ac}}{2a}=\frac{-b\pm\sqrt{\Delta}}{2a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Rappresentare la retta delle x, segnando anche la posizione di x
+\begin_inset Formula $_{1}$
+\end_inset
+
+ e x
+\begin_inset Formula $_{2}$
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Sulle soluzioni x
+\begin_inset Formula $_{1}$
+\end_inset
+
+ e x
+\begin_inset Formula $_{2}$
+\end_inset
+
+ segnare pallino pieno se 
+\begin_inset Quotes eld
+\end_inset
+
+c'e' l'uguale
+\begin_inset Quotes erd
+\end_inset
+
+, pallino vuoto altrimenti.
+\end_layout
+
+\begin_layout Enumerate
+Scegliere una x per ogni intervallo, e testare se la disuguaglianza e' vera
+ o falsa.
+ Mettere i piu' e i meno di conseguenza.
+\end_layout
+
+\begin_layout Enumerate
+Tracciare la retta finale, con i piu' e i meno, in base alla regola.
+\end_layout
+
+\begin_layout Enumerate
+Scrivere l'intervallo delle soluzioni.
+\end_layout
+
+\end_body
+\end_document
