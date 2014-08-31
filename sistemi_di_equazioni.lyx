@@ -1,0 +1,152 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf3
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Come risolvere Sistemi di Equazioni
+\end_layout
+
+\begin_layout Enumerate
+Portare il sistema di equazioni in questa forma:
+\begin_inset Newline newline
+\end_inset
+
+
+\color red
+
+\begin_inset Formula 
+\[
+\begin{cases}
+a_{1}x+b_{1}y+c_{1}z & =d_{1}\\
+a_{2}x+b_{2}y+c_{2}z & =d_{2}\\
+a_{3}x+b_{3}y+c_{3}z & =d_{3}
+\end{cases}
+\]
+
+\end_inset
+
+
+\color inherit
+
+\begin_inset Newline newline
+\end_inset
+
+dove quello descritto e' un sistema di tre equazioni in tre incognite, ma
+ potrebbe essere un sistema piu' semplice di due equazioni in due incognite.
+\end_layout
+
+\begin_layout Enumerate
+Osservare bene il sistema:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Metodo della somma/sottrazione tra equazioni:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Se sommando o sottraendo tra loro due righe del sistema una lettera si cancella,
+ eseguire questo calcolo sotto il sistema.
+\end_layout
+
+\begin_layout Enumerate
+Poi sostituire il risultato a una delle due equazioni, riscrivendo il sistema.
+\end_layout
+
+\begin_layout Enumerate
+Da ricordare: sottrarre due equazioni significa sommarle dopo aver invertito
+ tutti i segni di una delle due.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Metodo della sostituzione:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Si puo' esplicitare una lettera in una equazione, lasciando solo la lettera
+ a sinistra e spostando tutti gli altri termini a destra.
+\end_layout
+
+\begin_layout Enumerate
+Il blocco a destra cosi' ottenuto, puo' essere sostituito nelle altre equazioni,
+ al posto della lettera.
+\end_layout
+
+\begin_layout Enumerate
+Riscrivere quindi il sistema sostituendo la lettera nelle altre due equazioni.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Continuare a eseguire i passaggi (a) e (b) finche' non si trova un valore
+ numerico per ogni lettera del sistema.
+\end_layout
+
+\end_body
+\end_document
